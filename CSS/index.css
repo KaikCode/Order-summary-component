@@ -1,0 +1,88 @@
+
+section, .first-img {
+    background-color: var(--Card-background);
+    width: 350px;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-container {
+    border-radius: 10px;
+    box-shadow: 7px 11px 9px 0px rgba(0, 0, 0, 0.200);
+    padding: 5px;
+}
+
+.first-img {
+    background-color: none;
+    border-radius: 10px 10px 0 0;
+}
+
+h1, .data {
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.info {
+    text-align: center;
+    line-height: 1.7;
+    color: var(--Paragraph);
+}
+
+.plan-info {
+    display: flex;
+    align-items: center;
+    background-color: var(--plan-background);
+    border-radius: 10px;
+    margin: 30px 25px;
+    padding: 8px;
+    
+}
+.icon-img {
+    align-self: center;
+    border-radius: 100%;
+    margin-right: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.255);
+}
+
+.price {
+    color: var(--Paragraph);
+}
+
+.plan-info > a {
+    margin-left: 20%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 25px;
+}
+
+.btn-payment, .btn-cancel {
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-payment {
+    background-color: var(--Button-background);
+    color: var(--Card-background);
+    box-shadow: 7px 11px 9px 0px rgba(0, 0, 0, 0.300)
+}
+
+.btn-cancel {
+    background-color: transparent;
+}
+
+.btn-payment:hover {
+    background-color: var(--Paragraph);
+}
+
+.btn-cancel>span:hover, .btn-charge:hover {
+    color: var(--Paragraph);
+}
